@@ -1,0 +1,12 @@
+{
+    "id": "com.honeywell.evohome",
+    "name": {
+        "en": "Honeywell Evohome"
+    },
+    "version": "0.0.1",
+    "compatibility": "0.x",
+    "author": {
+        "name": "Remko Scheers",
+        "email": "remko@vschijndel.nl"
+    }
+}
