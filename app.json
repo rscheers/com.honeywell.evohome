@@ -9,4 +9,20 @@
         "name": "Remko Scheers",
         "email": "remko@vschijndel.nl"
     }
+	"drivers": [
+        {
+            "id": "evohome", // points to ./com.honeywell.evohome/drivers/evohome/
+            "name": {
+                "en": "Evohome Thermostat",
+                "nl": "Evohome Thermostaat"
+            },
+            "images": { // device images
+                "large": "assets/drivers/evohome/large.jpg", // relative to app folder
+                "small": "assets/drivers/evohome/large.jpg"				    
+            },
+            "class": "thermostat",
+            "capabilities": [ "measure_temperature", "target_temperature", "thermostat_mode", "thermostat_state" ]
+        }
+    ]
+
 }
